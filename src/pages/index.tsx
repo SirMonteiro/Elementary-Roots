@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       </Box>
       <Box>
         <Grid container justifyContent="center" alignItems="center" flexDirection="column" className={styles.gridText}>
-          <Typography variant="h4" color="white">The SpaceGreenhouse using engineering origami</Typography>
+          <Typography variant="h4" color="white">The SpaceGreenhouse using origami engineering</Typography>
           <Typography variant="body1" color="white">This is a technological greenhouse made for grow plants for suplementary nutrients in places where resources are scarce</Typography>
           <Typography variant="body1" color="white">The idea for this project was developed during <a href="https://2021.spaceappschallenge.org/">Nasa Space Apps challenge</a>, a Hackathon event made by <a href="https://nasa.gov/">Nasa</a></Typography>
         </Grid>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <Typography variant="body1" color="white">Credits: <a href="https://images.nasa.gov/details-KSC-20210408-PH-ILW01_0048">NASA/Isaac Watson</a></Typography>
       </Grid>
       <Box className={styles.footer} minWidth="100%">
-        <Footer />
+        <Footer color="white" />
       </Box>
     </main >
   )

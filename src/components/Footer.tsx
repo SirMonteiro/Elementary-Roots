@@ -4,7 +4,11 @@ import Link from 'next/link'
 
 import styles from 'src/styles/components/footer.module.scss'
 
-export function Footer(): JSX.Element {
+type footerColor = {
+  color?: string
+}
+
+export function Footer(color: footerColor): JSX.Element {
   return (
     <footer className={styles.footer}>
       <Grid
@@ -17,7 +21,7 @@ export function Footer(): JSX.Element {
           <Grid container alignItems="center">
             <Link href="/">
               <a>
-                <Typography>
+                <Typography color={color}>
                   Elementary Roots &copy; 2021
                 </Typography>
               </a>

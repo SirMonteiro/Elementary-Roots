@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  top: 0;
+  height: 54px;
+  width: 100vw;
+  background: rgb(255, 255, 255, 0.7);
+  backdrop-filter: blur(3px);
+  max-width: 100%;
+  padding: 8px 32px;
+}
+
+.divModalActions {
+  padding: 24px;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+
+  button {
+    position: static;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 48px;
+    transition: background 0.33 ease;
+
+    padding: 4px;
+
+    &:hover {
+      background: #f5f5f5;
+    }
+  }
+}

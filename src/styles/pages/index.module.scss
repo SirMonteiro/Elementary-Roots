@@ -1,0 +1,24 @@
+.boxImgCover {
+  position: absolute;
+  z-index: -100;
+  filter: blur(8px);
+  background: url('../../assets/images/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gridText {
+  height: 100vh;
+}
+
+.imageCredits {
+  position: absolute;
+  bottom: 24px;
+  right: 8px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}

@@ -1,6 +1,6 @@
 {
-  "name": "elementaryroots-websites",
-  "version": "0.1.0",
+  "name": "elementaryroots-website",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +8,23 @@
     "start": "next start",
     "export": "next export"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirMonteiro/Elementary-Roots.git"
+  },
+  "keywords": [
+    "Website",
+    "Innovation",
+    "Sustainability",
+    "PlantsInSpace",
+    "PlantsInMars",
+    "Greenhouse"
+  ],
+  "author": "Elementary Roots Team",
+  "bugs": {
+    "url": "https://github.com/SirMonteiro/Elementary-Roots/issues"
+  },
+  "homepage": "https://github.com/SirMonteiro/Elementary-Roots#readme",
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/server": "^11.4.0",

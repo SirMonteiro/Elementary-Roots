@@ -15,7 +15,7 @@ const Contact: NextPage = () => {
   return (
     <>
       <SEO
-        title="ElementaryRoots - Contact"
+        title="Elementary Roots - Contact"
         description="Answer our survey!"
       />
       <Header />

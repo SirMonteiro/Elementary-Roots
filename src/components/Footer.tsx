@@ -18,7 +18,7 @@ export function Footer(): JSX.Element {
             <Link href="/">
               <a>
                 <Typography>
-                  Elementary Roots &copy; {new Date().getFullYear()}
+                  Elementary Roots &copy; 2021
                 </Typography>
               </a>
             </Link>

@@ -17,25 +17,50 @@ const Home: NextPage = () => {
   const theme = useTheme()
   return (
     <main className={styles.main}>
-      <SEO title="Elementary Roots" description="The page of Elementary Roots project " />
+      <SEO
+        title="Elementary Roots"
+        description="The page of Elementary Roots project "
+      />
       <Header />
       <Box height="100vh" width="100%" className={styles.boxImgCover}>
         {/* <img src={imgCover} height="100%" width="100%" /> */}
       </Box>
       <Box>
-        <Grid container justifyContent="center" alignItems="center" flexDirection="column" className={styles.gridText}>
-          <Typography variant="h4" color="white">The SpaceGreenhouse using origami engineering</Typography>
-          <Typography variant="body1" color="white">This is a technological greenhouse made for grow plants for suplementary nutrients in places where resources are scarce</Typography>
-          <Typography variant="body1" color="white">The idea for this project was developed during <a href="https://2021.spaceappschallenge.org/">Nasa Space Apps challenge</a>, a Hackathon event made by <a href="https://nasa.gov/">Nasa</a></Typography>
+        <Grid
+          container
+          justifyContent="center"
+          alignItems="center"
+          flexDirection="column"
+          className={styles.gridText}
+        >
+          <Typography variant="h4" color="white">
+            The SpaceGreenhouse using origami engineering
+          </Typography>
+          <Typography variant="body1" color="white">
+            This is a technological greenhouse made for grow plants for
+            suplementary nutrients in places where resources are scarce
+          </Typography>
+          <Typography variant="body1" color="white">
+            The idea for this project was developed during{' '}
+            <a href="https://2021.spaceappschallenge.org/">
+              Nasa Space Apps challenge
+            </a>
+            , a Hackathon event made by <a href="https://nasa.gov/">Nasa</a>
+          </Typography>
         </Grid>
       </Box>
       <Grid container justifyContent="end" className={styles.imageCredits}>
-        <Typography variant="body1" color="white">Credits: <a href="https://images.nasa.gov/details-KSC-20210408-PH-ILW01_0048">NASA/Isaac Watson</a></Typography>
+        <Typography variant="body1" color="white">
+          Credits:{' '}
+          <a href="https://images.nasa.gov/details-KSC-20210408-PH-ILW01_0048">
+            NASA/Isaac Watson
+          </a>
+        </Typography>
       </Grid>
       <Box className={styles.footer} minWidth="100%">
         <Footer color="white" />
       </Box>
-    </main >
+    </main>
   )
 }
 

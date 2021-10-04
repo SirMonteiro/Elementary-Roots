@@ -19,7 +19,7 @@ import elementaryRootsLogo from 'src/assets/images/logotipo.png'
 
 import { LinkButton } from 'src/components/LinkButton'
 
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from '@mui/icons-material/Close'
 
 export function Header(): JSX.Element {
   const [isDrawerOpen, setisDrawerOpen] = useState(false)
@@ -47,9 +47,22 @@ export function Header(): JSX.Element {
         alignItems="center"
       >
         <Link href="/" passHref>
-          <a aria-label="Página inicial" style={{ textDecoration: "none", color: 'initial' }}>
-            <Grid container justifyContent="center" alignItems="center" flexDirection="row">
-              <img src={elementaryRootsLogo} alt="Elementary Roots" width="32px" height="32px" />
+          <a
+            aria-label="Página inicial"
+            style={{ textDecoration: 'none', color: 'initial' }}
+          >
+            <Grid
+              container
+              justifyContent="center"
+              alignItems="center"
+              flexDirection="row"
+            >
+              <img
+                src={elementaryRootsLogo}
+                alt="Elementary Roots"
+                width="32px"
+                height="32px"
+              />
               <Typography variant="subtitle1">Elementary Roots</Typography>
             </Grid>
           </a>

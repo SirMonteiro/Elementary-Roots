@@ -11,10 +11,22 @@ import styles from 'src/styles/pages/404.module.scss'
 const Demo: NextPage = () => {
   return (
     <main>
-      <SEO title="Elementary Roots - 404" description="This page could not be found." />
+      <SEO
+        title="Elementary Roots - 404"
+        description="This page could not be found."
+      />
       <Box height="100vh" width="100%" className={styles.background}></Box>
-      <Grid container justifyContent="center" alignItems="center" flexDirection="column" style={{ height: '100vh' }}>
-        <Typography variant="h6" color="white">404 | The space object you are looking for has  not be found in Milky Way.</Typography>
+      <Grid
+        container
+        justifyContent="center"
+        alignItems="center"
+        flexDirection="column"
+        style={{ height: '100vh' }}
+      >
+        <Typography variant="h6" color="white">
+          404 | The space object you are looking for has not be found in Milky
+          Way.
+        </Typography>
       </Grid>
     </main>
   )

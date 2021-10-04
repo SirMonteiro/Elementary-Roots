@@ -7,14 +7,11 @@ import { NextPage } from 'next'
 
 import styles from 'src/styles/pages/index.module.scss'
 
-import imgCover from 'src/assets/images/cover.jpg'
-
 import { SEO } from 'src/components/SEO'
 import { Header } from 'src/components/Header'
 import { Footer } from 'src/components/Footer'
 
 const Home: NextPage = () => {
-  const theme = useTheme()
   return (
     <main className={styles.main}>
       <SEO

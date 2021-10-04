@@ -24,7 +24,7 @@ const Demo: NextPage = () => {
         style={{ height: '100vh' }}
       >
         <Typography variant="h6" color="white">
-          404 | The space object you are looking for has not be found in Milky
+          404 | The space object you are looking for could not be found in Milky
           Way.
         </Typography>
       </Grid>

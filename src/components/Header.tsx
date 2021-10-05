@@ -34,7 +34,7 @@ export function Header(): JSX.Element {
 
   const drawerNavItems = [
     { href: '/contact', primary: 'Contact' },
-    { href: '/video', primary: 'Video' },
+    { href: '/3d', primary: '3d' },
     { href: '/demo', primary: 'Demo' }
   ]
 
